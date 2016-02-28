@@ -34,7 +34,8 @@ http://ilikepixels.co.uk/drop/bubbler/
      - コード表示領域必要
      - HTMLとCSS
 - クリックで値取得してコード表示？
-
+- カラーピッカー設置
+- 数値設定バーの設置
 
 ---
 

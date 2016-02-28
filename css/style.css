@@ -1,0 +1,8 @@
+/* line 3, style.scss */
+.pick_color {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  text-indent: -9999px;
+  border: solid 1px #999;
+}

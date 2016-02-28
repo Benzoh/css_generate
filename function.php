@@ -3,5 +3,10 @@
 <?php
 
 	function home_url(){
-		echo $_SERVER['SERVER_NAME'];
+		return $_SERVER['SERVER_NAME'];
+	}
+
+	function code_escape($html){
+		$code = htmlspecialchars( $html, ENT_QUOTES );
+		return $code;
 	}
