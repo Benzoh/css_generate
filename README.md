@@ -50,3 +50,8 @@ http://ilikepixels.co.uk/drop/bubbler/
 	- type-A.php
 	- type-B.php
 	- type-C.php
+
+
+＃ TODO
+
+- カラーピッカーの置き換え＆ 調整

@@ -23,6 +23,7 @@ $(document).ready(function(){
 	$(".color input[name=c1]").on("blur",function(){
 	  var color = $(this).val();
 	  console.log(color);
+	  $('.pick_color').css('background-color', color);
 	});
 
 });

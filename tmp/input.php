@@ -19,8 +19,9 @@
 <form class="m-radio" action="" method="post" accept-charset="utf-8">
 	<div class="color">
 		<label for="t1">色を選ぶ</label>
-		<input type="text" name="c1" value="#e4521e" size="12" id="t1" class="html5jp-cpick [width:600;height:400]" />
-		<span class="pick_color" style="background-color: <?php echo $color; ?>;">
+		<input type="text" name="c1" value="<?php if(isset($color)){ echo $color; } else { echo '#e4521e'; }?>" size="12" id="t1" class="html5jp-cpick [width:600;height:400]" />
+		<!-- <span class="pick_color" style="background-color: <?php // echo $color; ?>;"> -->
+		<span class="pick_color" style="background-color: #e4521e;">
 			pickした色表示
 		</span>
 	</div>
